@@ -1,0 +1,18 @@
+dual: true
+lang1: SP
+lang2: EN
+pandoc_common:
+  filters:
+  - pandoc-crossref
+  input_files:
+  - exercises_file_systems.md
+  output_basename:
+    EN: exercises_file_systems
+    SP: problemas_ficheros
+pandoc_targets:
+  EPUB:
+    options: -t epub
+  HTML:
+    options: -s --to html
+  PDF:
+    options: -s --to latex
