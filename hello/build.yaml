@@ -1,0 +1,16 @@
+dual: true
+pandoc_common:
+  input_files:
+  - hello.md
+  output_basename:
+    SP: hola
+    EN: hello
+pandoc_targets:
+  TXT:
+    options: -t plain --wrap=none -s
+  DOCX:
+    options: -t docx
+  HTML:
+    options: -t html -s
+  PDF:
+    options: -t latex -s
