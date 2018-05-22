@@ -38,7 +38,4 @@ and `monospace` text. Lists in markdown are defined as follows:
 		1. First point
 		2. Second point
 
-A paragraph is simply one or more consecutive lines of text, 
-separated by one or more blank lines.
-
 END-EN
