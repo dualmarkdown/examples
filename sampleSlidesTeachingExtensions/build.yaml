@@ -1,0 +1,14 @@
+dual: true
+lang1: EN
+pandoc_common:
+ input_files:
+  - sampleSlidesTeachingExtensions.md
+ output_basename:
+   EN: sampleSlidesTeachingExtensions
+pandoc_targets:
+  PDF:
+    options:
+      to: beamer
+      s: 
+      slide-level: 2
+      verbose:

@@ -1,0 +1,18 @@
+dual: true
+lang1: SP
+lang2: EN
+pandoc_common:
+ input_files:
+  - sampleSlides.md
+  - part1.md
+  - part2.md
+ output_basename:
+   EN: sampleSlides
+   SP: ejemploTransparencias  
+pandoc_targets:
+  PDF:
+    options:
+      to: beamer
+      s: 
+      slide-level: 2
+      verbose:
