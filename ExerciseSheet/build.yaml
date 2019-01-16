@@ -2,8 +2,8 @@ dual: true
 lang1: SP
 lang2: EN
 pandoc_common:
-  filters:
-  - pandoc-crossref
+# filters:
+#  - pandoc-crossref
   input_files:
   - exercises_file_systems.md
   output_basename:
@@ -16,3 +16,5 @@ pandoc_targets:
     options: -s --to html
   PDF:
     options: -s --to latex
+  TEX:
+    options: -s --to latex -o a.tex

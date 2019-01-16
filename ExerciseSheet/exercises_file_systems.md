@@ -2,10 +2,11 @@
 geometry: "top=1.0cm, bottom=1.5cm, left=2.5cm, right=2.5cm"
 fontsize: 11pt
 fontfamily: times
+traditional-tables: false
 ---
 
-<div align="center">
-***  
+::::::: {.framed}
+::::: {align="center"}
 
 **[Módulo 2: Sistemas de Ficheros ||| Unit 2: File Systems]{.dual fontsize=huge}**   
 
@@ -13,8 +14,8 @@ fontfamily: times
 
 **[Problemas de Sistemas Operativos ||| Operating Systems Exercises]{.dual fontsize=large}**   
 
-***
-</div>
+:::::
+:::::::
 
 
 
@@ -22,7 +23,7 @@ fontfamily: times
 
 BEGIN-SP
 
-Calcular el número de accesos a disco necesarios (para el caso
+Calcular el [número]{.underline} [de accesos]{.alert} a disco necesarios (para el caso
 peor y para el caso mejor) para leer 20 bloques lógicos consecutivos (no
 necesariamente los 20 primeros) de un fichero en un sistema con:
 
